@@ -81,7 +81,6 @@ class Domino:
         last = self.snake[-1][-1]
 
         for el in rating:
-
             chosen = el[1]
             if chosen[0] == first:
                 self.computer.remove(chosen)
